@@ -1,0 +1,30 @@
+[
+    {
+    "langage":{
+        "lag":
+        [
+            "HTML5",
+            "CSS",
+            "JavaScrip",
+            "react.js",
+            "node.js"
+        ],
+        "imgIcone":"/Outil/conception-de-code.png"
+    },
+
+    
+        "outils":{
+            "outil":
+            [
+                "Vscode",
+                "navigateur web",
+                "github",
+                "figma",
+                "trello",
+                "paper.li",
+                "feedly.com"
+            ],
+            "imgIcone":"/Outil/developpement-web.png"
+        }
+    }
+]

@@ -1,5 +1,5 @@
-import Main from '../../Layout/Main';
-import Header from '../../Layout/Header';
+import Main from '../../Layout/Main/main';
+import Header from '../../Layout/Header/Header';
 
 import About from '../../Componants/About/about';
 import Materiel from '../../Componants/Materiel/materiel';

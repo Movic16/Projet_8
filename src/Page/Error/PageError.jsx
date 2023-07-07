@@ -2,9 +2,9 @@ import React from "react";
 import {Link } from "react-router-dom";
 import './PageError.css';
 
-import Header from "../../Layout/Header";
+import Header from "../../Layout/Header/Header";
 import Navig from "../../Componants/Navig/navig";
-import Main from "../../Layout/Main";
+import Main from "../../Layout/Main/main";
 
 
 

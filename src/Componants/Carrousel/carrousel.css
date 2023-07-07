@@ -1,0 +1,128 @@
+.Carrousel figure img
+{
+    width: 100%;
+    border-radius: 25px;
+    height: 400px;
+    object-fit: cover;
+    mix-blend-mode: normal
+}
+
+.Carrousel figure
+{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Carrousel
+{
+    position: relative;
+}
+
+.buttonChevron 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -370px;
+}
+
+.buttonChevronGauche
+{
+    margin-left: 40px;
+    height: 300px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonchevronDroit
+{
+    margin-right: 40px;
+    height: 300px;
+    width: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chevronGauche
+{
+    position: absolute;
+    content: "";
+}
+
+.chevronDroit
+{
+    position: absolute;
+    content: "";
+}
+
+.Div-Cpt
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Div-Cpt p
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+
+    color: #FFFFFF;
+}
+
+/*Partie responsive*/
+
+@media (max-width: 768px) { 
+    .Carrousel figure img
+    {
+        height: 200px;
+    }
+    
+    .buttonChevron 
+    {
+        margin-top: -205px;
+    }
+
+    .buttonChevronGauche
+    {
+        height: 200px;
+        margin-left: 0px;
+        width: 60px; 
+    }
+
+    .buttonchevronDroit
+    {
+        height: 200px;
+        margin-right: 0px;
+        width: 60px;
+    }
+
+    .chevronGauche
+    {
+        height: 30px;
+    }
+
+    .chevronDroit
+    {
+        height: 30px;
+    }
+
+    .compteurImg
+    {
+        margin-top: -30px;
+    }
+}

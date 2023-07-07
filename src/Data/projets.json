@@ -1,38 +1,163 @@
 [
     {
-        "id": "5e4t1",
-        "titre": "",
-        "mission": "",
-        "cover":"",
-        "pictures": [],
+        "id": "1a2b4",
+        "title": "Creation d'une page d'accueil avec HTML et CSS",
+        "mission": "Cette projet permet de creer une page d'accueil d'une agence de voyage avec HTML et CSS. Dans cette mission on devrais respecter les breakpoints données, plus de 1024px pour les ordinateur, entre 1024px et 768px pour les tablettes et moin de 768px pour les mobiles. Pour mieux respecter le designe de la page et les couleurs, une maquette été fournie",
+        "cover":"/Book/img_book_01.png",
+        "pictures": [
+            "/Book/img_book_01.png",
+            "/Book/img_book_02.png",
+            "/Book/img_book_03.png",
+            "/Book/img_book_04.png",
+            "/Book/img_book_05.png",
+            "/Book/img_book_06.png",
+            "/Book/img_book_07.png",
+            "/Book/img_book_08.png"
+        ],
+        "lien":{
+            "lienSite":"https://movic16.github.io/Projet_2/",
+            "lienCode":"https://github.com/Movic16/Projet_2.git"
+        },
         "comptence":{
-            "langage":[],
-            "outils":[]
+            "langage":[
+                "HTML5",
+                "CSS"
+            ],
+            "outils":[
+                "Vscode",
+                "navigateur web et mobile"
+            ]
         }
 
     },
 
     {
-        "id": "5e4t1",
-        "titre": "",
-        "mission": "",
-        "cover":"",
-        "pictures": [],
+        "id": "2c3d4",
+        "title": "Creation d'une page web dynamique avec JavaScript",
+        "mission": "Sur ce projet, je devrais gerer l'ajoute des nouveaux travaux, pour cela je devrais réaliser la page de connexion. Avant d'ajouter des nouveaux travaux, l'utilisateur doit se connecter en tant qu'admin pour être en mode editeur.",
+        "cover":"/SiteDynamic/img_sitedynamic_01.png",
+        "pictures": [
+            "/SiteDynamic/img_sitedynamic_01.png",
+            "/SiteDynamic/img_sitedynamic_02.png",
+            "/SiteDynamic/img_sitedynamic_03.png",
+            "/SiteDynamic/img_sitedynamic_04.png",
+            "/SiteDynamic/img_sitedynamic_05.png",
+            "/SiteDynamic/img_sitedynamic_06.png",
+            "/SiteDynamic/img_sitedynamic_07.png",
+            "/SiteDynamic/img_sitedynamic_08.png"
+        ],
+        "lien":{
+            "lienSite":"",
+            "lienCode":"https://github.com/Movic16/Projet_3.git"
+        },
         "comptence":{
-            "langage":[],
-            "outils":[]
+            "langage":[
+                "HTML5",
+                "CSS",
+                "JavaScrip"
+            ],
+            "outils":[
+                "Vscode",
+                "navigateur web et mobile",
+                "Live Server"
+            ]
         }
     },
 
     {
-        "id": "5e4t1",
-        "titre": "",
-        "mission": "",
-        "cover":"",
-        "pictures": [],
+        "id": "3e4f5",
+        "title": "Débuggez et optimisez un site",
+        "mission": "Sur ce projet, le problematique etais de debuggez un site de photographe, puis optimisée les images pour rendre le site rapide, ensuite, améliorer le charge et l'accessibilité du site.",
+        "cover":"/DebuggezSite/img_debuggezsite_01.png",
+        "pictures": [
+            "/DebuggezSite/img_debuggezsite_01.png",
+            "/DebuggezSite/img_debuggezsite_02.png",
+            "/DebuggezSite/img_debuggezsite_03.png",
+            "/DebuggezSite/img_debuggezsite_04.png",
+            "/DebuggezSite/img_debuggezsite_05.png"
+        ],
+        "lien":{
+            "lienSite":"https://movic16.github.io/Site-Nina-Carducci/",
+            "ancienSite":"https://nina-carducci.github.io/",
+            "lienCode":"https://github.com/Movic16/Projet_5.git"
+        },
         "comptence":{
-            "langage":[],
-            "outils":[]
+            "langage":[
+                "HTML5",
+                "CSS",
+                "JavaScrip"
+            ],
+            "outils":[
+                "Vscode",
+                "navigateur web",
+                "Live Server"
+            ]
+        }
+    },
+
+    {
+        "id": "4f5g6",
+        "title": "Creation d'une application web de location immobilière",
+        "mission": "L'objectif de ce projet est creer une application avec les composants react et les routes react router. L'application doit être responsives.",
+        "cover":"/Kasa/img_kasa_01.png",
+        "pictures": [
+            "/Kasa/img_kasa_01.png",
+            "/Kasa/img_kasa_02.png",
+            "/Kasa/img_kasa_03.png",
+            "/Kasa/img_kasa_04.png",
+            "/Kasa/img_kasa_05.png",
+            "/Kasa/img_kasa_06.png",
+            "/Kasa/img_kasa_07.png",
+            "/Kasa/img_kasa_08.png",
+            "/Kasa/img_kasa_09.png"
+        ],
+        "lien":{
+            "lienSite":"https://movic16.github.io/Projet_6/",
+            "lienCode":"https://github.com/Movic16/Projet_6.git"
+        },
+        "comptence":{
+            "langage":[
+                "HTML5",
+                "CSS",
+                "JavaScrip",
+                "react.js"
+            ],
+            "outils":[
+                "Vscode",
+                "navigateur web"
+            ]
+        }
+    },
+
+    {
+        "id": "5g6h7",
+        "title": "Mon vieux grimoire",
+        "mission": "Dans cette projet, je vais m'occuper de la partie back-end. La partie front-end est déjâ fournie. Je vais gerer tous les donnees qui vient du côté front-end et verifier pour mieux les stokes dans une base de données.",
+        "cover":"/Grimoir/img_grimoir_01.png",
+        "pictures": [
+            "/Grimoir/img_grimoir_01.png",
+            "/Grimoir/img_grimoir_02.png",
+            "/Grimoir/img_grimoir_03.png",
+            "/Grimoir/img_grimoir_04.png",
+            "/Grimoir/img_grimoir_05.png",
+            "/Grimoir/img_grimoir_06.png"
+        ],
+        "lien":{
+            "lienSite":"",
+            "lienCode":"https://github.com/Movic16/Projet_7.git"
+        },
+        "comptence":{
+            "langage":[
+                "HTML5",
+                "CSS",
+                "JavaScrip",
+                "react.js",
+                "node.js"
+            ],
+            "outils":[
+                "Vscode",
+                "navigateur web"
+            ]
         }
     }
 ]

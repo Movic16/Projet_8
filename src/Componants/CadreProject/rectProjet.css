@@ -1,0 +1,10 @@
+.rectProjects
+{
+    background: #acaaaab2;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 3em;
+    max-height: 30000px;
+    min-height: 100px;
+    width: 100%;
+}
