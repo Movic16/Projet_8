@@ -2,13 +2,17 @@ import React, { useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import '../Projects/projectPlus.css';
 
-import Main from '../../Layout/Main/main';
 import Header from '../../Layout/Header/Header';
+import Main from '../../Layout/Main/main';
+import Footer from '../../Layout/Footer/Footer';
+
 import Navig from '../../Componants/Navig/navig';
 import PageError from '../Error/PageError';
+import Pfooter from '../../Page/Footer/Footer'
 
 import projets from '../../Data/projets.json';
 import Carrousel from '../../Componants/Carrousel/carrousel';
+import Collapse from '../../Componants/Collapse/collapse';
 
 function ProjetPlus()
 {
@@ -22,6 +26,16 @@ function ProjetPlus()
     //Rechercher l'id dans le fichier de projet.json
     const Idprojet_OK = projets.find(element => element.id === idProjet);
     console.log("Idprojet_OK", Idprojet_OK);
+
+    //recuperer la liste des langages
+    const langage = Idprojet_OK.technologie.langage.map((element, index) =>(
+        <li className="Descrip-langage" key={'langage'+index.toString()}>{element}</li>
+    ));
+
+    //recuperer la liste des outols
+    const equipOutils = Idprojet_OK.technologie.outils.map((element, index) =>(
+        <li className="Descrip-outils" key={'equipOutils'+index.toString()}>{element}</li>
+    ));
 
     //Si l'url est modifie manuellement, redirection la page error
     if(!Idprojet_OK) return(<PageError />)
@@ -51,7 +65,17 @@ function ProjetPlus()
                     </div>
                 </div>
 
+                <div className="collapseApp">
+                    <Collapse title="Description"  content={Idprojet_OK.mission} />
+                    <Collapse title="Langage"  content={langage} />
+                    <Collapse title="Outils"  content={equipOutils} />
+                </div>
+
             </Main>
+
+            <Footer>
+                <Pfooter />
+            </Footer>
         </>
     )
 }

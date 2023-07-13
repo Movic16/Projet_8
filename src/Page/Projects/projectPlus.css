@@ -21,7 +21,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit,minmax(100px,150px));
-    margin-top: -0.8em;
+    margin-top: 0.9em;
 }
 
 .Div-lien a {
@@ -40,4 +40,20 @@
     line-height: 150%;
     padding: 0.5em 1em;
     text-align: center;
+}
+
+.collapseApp {
+    display: flex;
+    gap: 2rem;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*Partie mobile*/
+@media (max-width: 768px) {
+
+    .collapseApp
+    {
+        flex-direction: column;
+    }
 }

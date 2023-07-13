@@ -3,11 +3,11 @@
     "langage":{
         "lag":
         [
-            "HTML5",
-            "CSS",
+            "Html5",
+            "Css",
             "JavaScrip",
-            "react.js",
-            "node.js"
+            "React.js",
+            "Node.js"
         ],
         "imgIcone":"/Outil/conception-de-code.png"
     },
@@ -17,12 +17,12 @@
             "outil":
             [
                 "Vscode",
-                "navigateur web",
-                "github",
-                "figma",
-                "trello",
-                "paper.li",
-                "feedly.com"
+                "Navigateur web",
+                "Github",
+                "Figma",
+                "Trello",
+                "Paper.li",
+                "Feedly.com"
             ],
             "imgIcone":"/Outil/developpement-web.png"
         }

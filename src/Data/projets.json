@@ -18,14 +18,14 @@
             "lienSite":"https://movic16.github.io/Projet_2/",
             "lienCode":"https://github.com/Movic16/Projet_2.git"
         },
-        "comptence":{
+        "technologie":{
             "langage":[
-                "HTML5",
-                "CSS"
+                "Html5",
+                "Css"
             ],
             "outils":[
                 "Vscode",
-                "navigateur web et mobile"
+                "Navigateur web et mobile"
             ]
         }
 
@@ -50,15 +50,15 @@
             "lienSite":"",
             "lienCode":"https://github.com/Movic16/Projet_3.git"
         },
-        "comptence":{
+        "technologie":{
             "langage":[
-                "HTML5",
-                "CSS",
+                "Html5",
+                "Css",
                 "JavaScrip"
             ],
             "outils":[
                 "Vscode",
-                "navigateur web et mobile",
+                "Navigateur web et mobile",
                 "Live Server"
             ]
         }
@@ -81,15 +81,15 @@
             "ancienSite":"https://nina-carducci.github.io/",
             "lienCode":"https://github.com/Movic16/Projet_5.git"
         },
-        "comptence":{
+        "technologie":{
             "langage":[
-                "HTML5",
-                "CSS",
+                "Html5",
+                "Css",
                 "JavaScrip"
             ],
             "outils":[
                 "Vscode",
-                "navigateur web",
+                "Navigateur web",
                 "Live Server"
             ]
         }
@@ -115,16 +115,16 @@
             "lienSite":"https://movic16.github.io/Projet_6/",
             "lienCode":"https://github.com/Movic16/Projet_6.git"
         },
-        "comptence":{
+        "technologie":{
             "langage":[
-                "HTML5",
-                "CSS",
+                "Html5",
+                "Css",
                 "JavaScrip",
-                "react.js"
+                "React.js"
             ],
             "outils":[
                 "Vscode",
-                "navigateur web"
+                "Navigateur web"
             ]
         }
     },
@@ -146,17 +146,17 @@
             "lienSite":"",
             "lienCode":"https://github.com/Movic16/Projet_7.git"
         },
-        "comptence":{
+        "technologie":{
             "langage":[
-                "HTML5",
-                "CSS",
+                "Html5",
+                "Css",
                 "JavaScrip",
-                "react.js",
-                "node.js"
+                "React.js",
+                "Node.js"
             ],
             "outils":[
                 "Vscode",
-                "navigateur web"
+                "Navigateur web"
             ]
         }
     }

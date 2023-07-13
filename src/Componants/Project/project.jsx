@@ -8,8 +8,8 @@ import RectProjet from "../CadreProject/rectProjet";
 function project() 
 {
     return (
-        <section className="project">
-            <h3> Mes Projets</h3>
+        <section className="project mt-5">
+            <h4 id="projet"> Mes Projets</h4>
                 <RectProjet />
         </section>
     );

@@ -6,7 +6,7 @@ import Avatar from "../../Images/Profils/AvatarProfil.jpg";
 function about() 
 {
     return (
-        <section className="about">
+        <section className="about mt-5">
             <div className="about-img">
                 <img src={Avatar} alt="Avatar de profil" />
                 <p>Massulaha Ibrahim</p>
@@ -15,7 +15,7 @@ function about()
 
             <div className="about-P">
                 <h1>À propos</h1>
-                <div className="about-card">
+                <div className="about-card mt-4">
                     <p> 
                         Je suis un Développeur front-end junior, je suis passionné par la création d'applications web et autres applications depuis mon adolescence. 
                         Ce métier me permet de travailler de n'importe où.
