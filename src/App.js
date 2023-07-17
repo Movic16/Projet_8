@@ -6,14 +6,16 @@ import PageError from '../src/Page/Error/PageError';
 import ProjectP from './Page/Projects/projectPlus'
 
 function App() {
+   
   return (
     <BrowserRouter>
-          <Routes>
-              <Route path="/" element= {<Home />} />
-              <Route path="projet" element= {<ProjectP />} />
-              <Route path="*" element= {<PageError />}/>
-          </Routes>
-        </BrowserRouter> 
+        <Routes>
+          <Route path="/" element= {<Home />} />
+          <Route path="projet" element= {<ProjectP />} />
+          {/* <Route path="/something/:id" element={<Something />} /> */}
+          <Route path="*" element= {<PageError />}/>
+        </Routes>
+    </BrowserRouter>
   );
 }
 

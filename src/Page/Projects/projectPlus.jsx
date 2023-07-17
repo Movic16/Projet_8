@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useSearchParams, Link } from "react-router-dom";
+import { useSearchParams, Link, useParams } from "react-router-dom";
 import '../Projects/projectPlus.css';
 
 import Header from '../../Layout/Header/Header';
@@ -16,6 +16,9 @@ import Collapse from '../../Componants/Collapse/collapse';
 
 function ProjetPlus()
 {
+    let { _id } = useParams();
+    console.log("_id", _id);
+
     //recuperer l'id de l'url
     const [searchPrams] = useSearchParams();
     const [idProjet, setIdProjet] = useState(searchPrams.get('_id'));
@@ -27,6 +30,9 @@ function ProjetPlus()
     const Idprojet_OK = projets.find(element => element.id === idProjet);
     console.log("Idprojet_OK", Idprojet_OK);
 
+    //Si l'url est modifie manuellement, redirection la page error
+    if(!Idprojet_OK) return(<PageError />);
+
     //recuperer la liste des langages
     const langage = Idprojet_OK.technologie.langage.map((element, index) =>(
         <li className="Descrip-langage" key={'langage'+index.toString()}>{element}</li>
@@ -36,9 +42,6 @@ function ProjetPlus()
     const equipOutils = Idprojet_OK.technologie.outils.map((element, index) =>(
         <li className="Descrip-outils" key={'equipOutils'+index.toString()}>{element}</li>
     ));
-
-    //Si l'url est modifie manuellement, redirection la page error
-    if(!Idprojet_OK) return(<PageError />)
 
     return(
         <>
@@ -78,6 +81,7 @@ function ProjetPlus()
             </Footer>
         </>
     )
+
 }
 
 export default ProjetPlus;
