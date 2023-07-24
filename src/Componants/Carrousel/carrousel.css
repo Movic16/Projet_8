@@ -30,11 +30,13 @@
 .buttonChevronGauche
 {
     margin-left: 40px;
-    height: 300px;
-    width: 100px;
+    margin-top: 7rem;
+    height: 10rem;
+    width: 10%;
     cursor: pointer;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
+    opacity: 0.6;
 
     display: flex;
     justify-content: center;
@@ -44,11 +46,13 @@
 .buttonchevronDroit
 {
     margin-right: 40px;
-    height: 300px;
-    width: 100px;
+    margin-top: 7rem;
+    height: 10rem;
+    width: 10%;
     cursor: pointer;
     border: none;
-    background-color: transparent;
+    /* background-color: transparent; */
+    opacity: 0.6;
 
     display: flex;
     justify-content: center;
@@ -81,7 +85,11 @@
     font-size: 22px;
     line-height: 150%;
 
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+
+    background: white;
+    color: black;
+    padding: 3px;
 }
 
 /*Partie responsive*/
@@ -94,21 +102,23 @@
     
     .buttonChevron 
     {
-        margin-top: -205px;
+        margin-top: -200px;
     }
 
     .buttonChevronGauche
     {
-        height: 200px;
-        margin-left: 0px;
-        width: 60px; 
+        height: 5rem;
+        margin-left: 20px; 
+        /* width: 60px;  */
+        margin-top: 5rem;
     }
 
     .buttonchevronDroit
     {
-        height: 200px;
-        margin-right: 0px;
-        width: 60px;
+        height: 5rem;
+        margin-right: 20px;
+        /* width: 60px; */
+        margin-top: 5rem;
     }
 
     .chevronGauche

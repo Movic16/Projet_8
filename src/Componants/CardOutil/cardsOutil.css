@@ -1,6 +1,7 @@
 .card-pict img
 {
     width: 50%;
+    animation: rotImg 10s linear infinite;
 }
 
 .outil-info
@@ -26,4 +27,15 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 22px;
+}
+
+/*Animation*/
+
+@keyframes rotImg{
+    from {
+        transform: rotate(0deg);  
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

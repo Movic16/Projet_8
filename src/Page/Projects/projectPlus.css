@@ -1,7 +1,7 @@
 .Detail-projet
 {
-    display: flex;
-    margin-top: 20px;
+   /* display: flex;*/
+    margin-top: 130px;
 }
 
 .Log-Title h1
@@ -55,5 +55,10 @@
     .collapseApp
     {
         flex-direction: column;
+    }
+
+    .Detail-projet
+    {
+        margin-top: 50px;
     }
 }

@@ -1,6 +1,6 @@
 .cont-form form
 {
-    width: 50%;
+    width: 90%;
 }
 
 #contact h5
@@ -38,4 +38,10 @@ form input, form textarea
 .messageContact p
 {
     color: #004e07;
+}
+
+.btn-primary:hover
+{
+    background-color: #004e07;
+    border-color: #004e07;
 }
