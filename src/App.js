@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/" element= {<Home />} />
-          <Route path="Projet_8" element= {<Home />} />
+          <Route path="Projet_8/" element= {<Home />} />
           <Route path="projet" element= {<ProjectP />} />
           {/* <Route path="/something/:id" element={<Something />} /> */}
           <Route path="*" element= {<PageError />}/>
