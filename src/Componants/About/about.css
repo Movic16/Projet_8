@@ -81,10 +81,6 @@
 
 /**Partie mobile**/
 @media (max-width: 768px) {
-    .about-img
-    {
-        display: none;
-    }
 
     .about-P
     {
@@ -95,5 +91,10 @@
     .about-card
     {
         width: auto;
+    }
+
+    .about
+    {
+        flex-direction: column;
     }
 }
